@@ -1,0 +1,39 @@
+.wrapper .animate {
+  width: 80%;
+  margin: 30px auto; }
+  .wrapper .animate h1 {
+    text-align: center;
+    padding: 10px 20px;
+    box-shadow: 0 0 6px rgba(12, 12, 12, 0.253); }
+  .wrapper .animate .box {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border: 2px solid #000; }
+    .wrapper .animate .box .move1, .wrapper .animate .box .move2, .wrapper .animate .box .move3, .wrapper .animate .box .move4 {
+      width: 10px;
+      height: 100px;
+      position: absolute;
+      left: 0;
+      background: #208091; }
+    .wrapper .animate .box .move4 {
+      transition: all 5s ease-in-out; }
+      .wrapper .animate .box .move4:hover {
+        width: 100%; }
+  .wrapper .animate .btn {
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    background: #0d5c9c;
+    color: #fff;
+    width: 100px;
+    border-radius: 3px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #0d5c9c; }
+    .wrapper .animate .btn:hover {
+      background: #fff;
+      color: #0d5c9c;
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
